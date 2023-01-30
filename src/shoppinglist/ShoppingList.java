@@ -16,6 +16,7 @@ public class ShoppingList {
         Compra comp4 = new Compra(200, "Robson");
         Compra comp5 = new Compra(300, "Guilherme");
         Compra comp6 = new Compra(350, "Guilherme");
+        Compra comp7 = new Compra(550, "Robson");
 
         compras.add(comp1);
         compras.add(comp2);
@@ -23,6 +24,7 @@ public class ShoppingList {
         compras.add(comp4);
         compras.add(comp5);
         compras.add(comp6);
+        compras.add(comp7);
 
         MetodoCompra.metodoCompra(compras);
 
